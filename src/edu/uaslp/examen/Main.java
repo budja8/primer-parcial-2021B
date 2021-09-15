@@ -37,7 +37,7 @@ public class Main {
         book.setTitle(title);
         book.setIsbn(isbn);
         book.setAuthor(author);
-        book.setStars((short) stars);
+        book.setStars(stars);
 
         return book;
     }

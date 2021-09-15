@@ -25,12 +25,10 @@ public class BookCollection {
 
     public Integer getStars(){
         int promedio = 0;
-
         for(Book book: books){
             promedio+=book.getStars();
         }
         promedio = promedio / books.size();
-
         return promedio;
     }
 }
